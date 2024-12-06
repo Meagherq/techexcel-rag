@@ -8,7 +8,7 @@ from promptflow.tracing import trace
 from azure_config import AzureConfig 
 
 # Initialize AzureConfig
-azure_config = AzureConfig()
+azure_config = Azuregit commit -m "Feature X complete"Config()
 
 def get_embedding(question: str):
     embedding_model = os.environ["AZURE_OPENAI_EMBEDDING_MODEL"]
